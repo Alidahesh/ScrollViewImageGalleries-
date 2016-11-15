@@ -15,6 +15,7 @@
 		41403F201DDA438800AC57FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41403F1E1DDA438800AC57FE /* LaunchScreen.storyboard */; };
 		41403F2B1DDA438900AC57FE /* ImageGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41403F2A1DDA438900AC57FE /* ImageGalleryTests.m */; };
 		41403F361DDA438900AC57FE /* ImageGalleryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41403F351DDA438900AC57FE /* ImageGalleryUITests.m */; };
+		415E816E1DDA8573009360A4 /* ScrollViewImageGalleries  in Resources */ = {isa = PBXBuildFile; fileRef = 415E816D1DDA8573009360A4 /* ScrollViewImageGalleries  */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		41403F311DDA438900AC57FE /* ImageGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41403F351DDA438900AC57FE /* ImageGalleryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleryUITests.m; sourceTree = "<group>"; };
 		41403F371DDA438900AC57FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415E816D1DDA8573009360A4 /* ScrollViewImageGalleries  */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ScrollViewImageGalleries "; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				41403F141DDA438800AC57FE /* AppDelegate.m */,
 				41403F161DDA438800AC57FE /* ViewController.h */,
 				41403F171DDA438800AC57FE /* ViewController.m */,
+				415E816D1DDA8573009360A4 /* ScrollViewImageGalleries  */,
 				41403F191DDA438800AC57FE /* Main.storyboard */,
 				41403F1C1DDA438800AC57FE /* Assets.xcassets */,
 				41403F1E1DDA438800AC57FE /* LaunchScreen.storyboard */,
@@ -248,6 +251,7 @@
 			files = (
 				41403F201DDA438800AC57FE /* LaunchScreen.storyboard in Resources */,
 				41403F1D1DDA438800AC57FE /* Assets.xcassets in Resources */,
+				415E816E1DDA8573009360A4 /* ScrollViewImageGalleries  in Resources */,
 				41403F1B1DDA438800AC57FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				41403F3C1DDA438900AC57FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41403F3D1DDA438900AC57FE /* Build configuration list for PBXNativeTarget "ImageGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				41403F3F1DDA438900AC57FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41403F401DDA438900AC57FE /* Build configuration list for PBXNativeTarget "ImageGalleryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				41403F421DDA438900AC57FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
